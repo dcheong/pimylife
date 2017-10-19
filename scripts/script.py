@@ -4,8 +4,8 @@ import datetime
 import io
 import picamera
 
-logDir = "/home/pi/SAUCGTC/"
-baseVidDir = "/home/pi/SAUCGTC/videos/"
+logDir = "/home/pi/pimylife/"
+baseVidDir = "/home/pi/pimylife/videos/"
 initTime = datetime.datetime.now()
 vidDir = baseVidDir + initTime.date().__str__() + "/"
 
